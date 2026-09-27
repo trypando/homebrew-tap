@@ -5,27 +5,27 @@ cask "pando" do
   on_macos do
     on_arm do
       sha256 "5f5d894df330ecdba0159b5c9818ef523da21d4f1fae971ff283b1a3fb6a7954"
-      url "https://github.com/bemeek-io/pando/releases/download/v#{version}/pando_#{version}_darwin_arm64.tar.gz"
+      url "https://github.com/trypando/pando/releases/download/v#{version}/pando_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
       sha256 "5ae4a1354d7e8b7ca5db68d41e6d8153dc5f7c61e4a43e27ac23c99f1d375a21"
-      url "https://github.com/bemeek-io/pando/releases/download/v#{version}/pando_#{version}_darwin_amd64.tar.gz"
+      url "https://github.com/trypando/pando/releases/download/v#{version}/pando_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
       sha256 "b39a7bbb477fdb457cdda7bce8a50769a4c3c128ddd39a8b766409dd282ead60"
-      url "https://github.com/bemeek-io/pando/releases/download/v#{version}/pando_#{version}_linux_arm64.tar.gz"
+      url "https://github.com/trypando/pando/releases/download/v#{version}/pando_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
       sha256 "77c734f6154d24f95a76c79f75d6436d8a5aa585e081568acce4c50fa80ded54"
-      url "https://github.com/bemeek-io/pando/releases/download/v#{version}/pando_#{version}_linux_amd64.tar.gz"
+      url "https://github.com/trypando/pando/releases/download/v#{version}/pando_#{version}_linux_amd64.tar.gz"
     end
   end
 
   name "pando"
   desc "Deploy applications to a host you own"
-  homepage "https://github.com/bemeek-io/pando"
+  homepage "https://github.com/trypando/pando"
 
   livecheck do
     skip "Auto-generated on release."
