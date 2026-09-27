@@ -8,15 +8,15 @@ arrived.
 Deploy applications to a host you own.
 
 ```bash
-brew install bemeek-io/tap/pando
+brew install trypando/tap/pando
 ```
 
 This installs the Pando CLI. The Pando server is installed with the project's Compose file, which
 supplies the Postgres it needs; a package manager does not. Source, issues and documentation are at
-[bemeek-io/pando](https://github.com/bemeek-io/pando).
+[trypando/pando](https://github.com/trypando/pando).
 
 On an older Homebrew, or on a machine without one, use the `.deb`, `.rpm`, `.apk` or the tarball on
-the [releases page](https://github.com/bemeek-io/pando/releases).
+the [releases page](https://github.com/trypando/pando/releases).
 
 ## About this repository
 
